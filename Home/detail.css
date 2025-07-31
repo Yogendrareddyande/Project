@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+
+}
+.header{
+    padding-left: 70px;
+    display: flex;
+    gap:40px;
+    align-items: center;
+    border-bottom: 1px solid #3c3a3a;
+    position: relative;
+}
+.header  img{
+    width: 30px;
+    height: 30px;
+   
+}
+.header a{
+    text-decoration: none;
+    padding:5px;
+    color:rgb(121, 113, 113);
+}
+.social{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size: 20px;
+}
+.social-icons {
+ padding-left: 550px;
+
+}
+.social-icons a{
+    padding: 8px;
+}
+.social-icons a:hover{
+    color: orangered;
+    cursor: pointer;
+    
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 15%;
+    position:absolute;
+  
+ 
+    
+}
+
+.villa {
+ padding: 20px 20px 20px 60px;
+ font-size: x-large;
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+.navlinks a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+.navlinks .detail{
+    color:  #e74c3c;
+}
+.navlinks a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.button{
+   margin-top: 20px;
+   padding-right:20px;
+
+}
+.custom-btn {
+  display:flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #222;
+}
+
+.custom-btn .icon {
+  background-color: rgb(255, 106, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-btn .icon i {
+  font-size: 14px;
+}
+.text:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.banner{
+    background: url(./Assests/page-heading-bg.jpg);
+    height: 300px;
+    width: 100%;
+}
+.main-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 350px;
+    height: 30px;
+    background-color: #fff;
+}
+.props{
+    color: #080808;
+    padding: 2px 10px;
+}
+.box h2{
+    font-size: xx-large;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.types{
+    display: flex;
+    padding-left: 360px;
+    gap: 30px;
+    margin: 30px 0px ;
+    
+    
+}
+.types a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #080808;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.types a:hover{
+    cursor: pointer;
+    color: orangered;
+    transition: 0.2s;
+}
+.main-section {
+  display: flex;
+  gap: 30px;
+  margin: 60px 100px;
+  width: 90%;
+  align-items: center;
+}
+
+.left-content img {
+  max-width: 100%;
+  border-radius: 2px;
+  width: 700px;
+  height: 400px;
+}
+.right-content {
+  width: 240px;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 20px 20px 20px 20px rgba(4, 4, 4, 0.05);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+}
+.property-section {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.property-section .badge {
+  background-color: #f5c7af;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.property-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.property-section hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.property-section p {
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.property-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.property-section a:hover {
+  text-decoration: underline;
+}
+
+.info-box {
+  background-color: #f9f9f9;
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.info-box h4 {
+  color: #e74c3c;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.info-box p {
+  color: #444;
+  font-size: 14px;
+}
+
+.info-box .highlight {
+  color: #ec96b1;
+}
+
+.info-box .question {
+  background-color: #fff;
+  padding: 12px;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  font-weight: 500;
+}
+.deal-section {
+  padding: 80px 40px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.deal-label {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.deal-section h1 {
+  font-size: 40px;
+  margin: 10px 0 30px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  
+  margin-bottom: 40px;
+  margin-left: 750px;
+}
+
+.filter-buttons button {
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-buttons .active {
+  background-color: #f24e1e;
+  color: white;
+}
+
+.filter-buttons button:hover {
+cursor: pointer;
+background-color: orangered;
+}
+
+.deal-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.deal-info {
+  flex: 1;
+  min-width: 200px;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.deal-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.deal-info li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  font-size: 15px;
+}
+
+.deal-info li strong {
+  font-weight: bold;
+}
+
+.deal-image {
+  flex: 2;
+  min-width: 300px;
+}
+
+.deal-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.deal-description {
+  flex: 1;
+  min-width: 280px;
+}
+
+.deal-description h4 {
+  margin-bottom: 15px;
+}
+
+.deal-description p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.visit-button {
+  background-color: #111;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+ 
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
