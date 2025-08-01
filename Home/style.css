@@ -11,7 +11,7 @@
   gap: 40px;
   align-items: center;
   border-bottom: 1px solid #3c3a3a;
-  position: relative;
+
 }
 
 .header img {
@@ -48,14 +48,19 @@
 
 }
 
+.villa-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
   background-color: rgb(255, 255, 255);
   display: flex;
   gap: 15%;
-  position: sticky;
-  top:0px;
 }
 
 .villa {
@@ -166,6 +171,7 @@
   margin: 60px auto;
   width: 90%;
   align-items: flex-start;
+
 }
 
 .left-content img {
@@ -173,6 +179,24 @@
   border-radius: 8px;
   width: 300px;
   height: 400px;
+  position: relative;
+}
+
+.side-corner {
+  background-color: #e74c3c;
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  margin-top: -50px;
+  margin-left: -40px;
+  position: absolute;
+}
+
+.side-corner img {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  margin-left: 5px;
 }
 
 .center-content {
@@ -197,6 +221,7 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
+
 .faq {
   padding: 12px 20px;
   border-bottom: 1px solid #eee;
@@ -205,6 +230,7 @@
 
 .faq:last-child {
   border-bottom: none;
+
 }
 
 .right-content {
@@ -641,13 +667,14 @@ h1 {
 
 
 }
-.form-box{
+
+.form-box {
   background: white;
   padding: 50px;
   border-radius: 10px;
   width: 200px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  position:absolute;
+  position: absolute;
   left: 800px;
   height: 350px;
 }
@@ -657,10 +684,12 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.form-box label{
+
+.form-box label {
   display: flex;
   color: #111;
 }
+
 .form-box input,
 .form-box textarea {
   padding: 10px;
@@ -668,6 +697,7 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 .form-box button {
   padding: 10px;
   background-color: #000;
@@ -676,9 +706,11 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .form-box button:hover {
   background-color: #6e3939;
 }
+
 .info-boxes {
   display: flex;
   padding-left: 220px;
@@ -707,4 +739,103 @@ h1 {
 .footer a {
   color: #ccc;
   text-decoration: none;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    padding-left: 30px;
+    gap: 20px;
+  }
+
+  .social-icons {
+    padding-left: 500px;
+  }
+
+  .navbar {
+    gap: 18%;
+    flex-wrap: wrap;
+    height: 90px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  .navlinks {
+    gap: 25px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .villa {
+    padding: 0px 20px 20px 55px;
+
+  }
+
+  .villa h1 {
+    font-size: xx-large;
+    padding: 20px 20px 20px 40px;
+
+  }
+
+  .button {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .filter-buttons {
+    margin-left: 400px;
+  }
+
+  .heading {
+    height: 60vh;
+    padding: 0;
+  }
+
+  .container {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    margin: 0 -200px;
+    width: 100%;
+    padding: 0;
+    z-index: 3;
+  }
+
+  .map-box iframe {
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .form-box {
+    position: absolute;
+    left: 750px;
+    top: 260px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-boxes {
+    display: flex;
+    flex-direction: row;
+    padding-left: 220px;
+    gap: 30px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .info-box {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+  }
 }

@@ -1,89 +1,111 @@
-*{
-    margin: 0;
-    
-    padding: 0;
+* {
+  margin: 0;
+
+  padding: 0;
 
 }
-.header{
-    padding-left: 70px;
-    display: flex;
-    gap:40px;
-    align-items: center;
-    border-bottom: 1px solid #3c3a3a;
-    position: relative;
+
+.header {
+  padding-left: 70px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  border-bottom: 1px solid #3c3a3a;
+
 }
-.header  img{
-    width: 30px;
-    height: 30px;
-   
+
+.header img {
+  width: 30px;
+  height: 30px;
+
 }
-.header a{
-    text-decoration: none;
-    padding:5px;
-    color:rgb(121, 113, 113);
+
+.header a {
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(121, 113, 113);
 }
-.social{
-    display:flex;
-    align-items:center;
-    gap:15px;
-    font-size: 20px;
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
 }
+
 .social-icons {
- padding-left: 550px;
+  padding-left: 550px;
 
 }
-.social-icons a{
-    padding: 8px;
+
+.social-icons a {
+  padding: 8px;
 }
-.social-icons a:hover{
-    color: orangered;
-    cursor: pointer;
-    
+
+.social-icons a:hover {
+  color: orangered;
+  cursor: pointer;
+
 }
+
+.villa-house {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
 .navbar {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 15%;
-    position:absolute;
-  
- 
-    
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 15%;
 }
 
 .villa {
- padding: 20px 20px 20px 60px;
- font-size: x-large;
+  padding: 20px 20px 20px 60px;
+  font-size: x-large;
+
+}
+
+.villa h1 {
+  font-size: xx-large;
+  padding: 20px 20px 20px 40px;
 
 }
 
 .navlinks {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    text-align: center;
-    align-items: center;
-    font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  font-size: larger;
 }
-.navlinks a{
-    text-decoration: none;
-    color: rgb(26, 25, 25);
+
+.navlinks a {
+  text-decoration: none;
+  color: rgb(26, 25, 25);
 }
-.navlinks .property{
+
+.navlinks .property {
   color: #e74c3c;
 }
-.navlinks a:hover{
-    color: orangered;
-    cursor: pointer;
+
+.navlinks a:hover {
+  color: orangered;
+  cursor: pointer;
 }
-.button{
-   margin-top: 20px;
-   padding-right:20px;
+
+.button {
+  margin-top: 20px;
+  padding-right: 20px;
 
 }
+
 .custom-btn {
-  display:flex;
+  display: flex;
   align-items: center;
   background-color: #000;
   color: #fff;
@@ -114,55 +136,65 @@
 .custom-btn .icon i {
   font-size: 14px;
 }
-.text:hover{
-    color:orangered;
-    cursor: pointer;
+
+.text:hover {
+  color: orangered;
+  cursor: pointer;
 }
-.banner{
-    background: url(./Assests/page-heading-bg.jpg);
-    height: 300px;
-    width: 100%;
+
+.banner {
+  background: url(./Assests/page-heading-bg.jpg);
+  height: 300px;
+  width: 100%;
 }
-.main-bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.main-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.box{
-    width: 250px;
-    height: 30px;
-    background-color: #fff;
+
+.box {
+  width: 250px;
+  height: 30px;
+  background-color: #fff;
 }
-.props{
-    color: #080808;
-    padding: 2px 5px;
+
+.props {
+  color: #080808;
+  padding: 2px 5px;
 }
-.box h2{
-    font-size: xx-large;
-    color: #fff;
-    padding-top: 20px;
-    padding-left: 20px;
+
+.box h2 {
+  font-size: xx-large;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
 }
-.types{
-    display: flex;
-    padding-left: 360px;
-    gap: 30px;
-    margin: 30px 0px ;
-    
-    
+
+.types {
+  display: flex;
+  padding-left: 360px;
+  gap: 30px;
+  margin: 30px 0px;
+
+
 }
-.types a{
-    text-decoration: none;
-    color: #fff;
-    background-color: #080808;
-    padding: 10px 20px;
-    border-radius: 10px;
+
+.types a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #080808;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
-.types a:hover{
-    cursor: pointer;
-    color: orangered;
-    transition: 0.2s;
+
+.types a:hover {
+  cursor: pointer;
+  color: orangered;
+  transition: 0.2s;
 }
+
 .property-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -176,13 +208,14 @@
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
+
 }
+
 .property-card:hover {
   transform: translateY(-5px);
 }
@@ -194,9 +227,9 @@
 }
 
 .property-card .tag {
-    width: 100px;
-  background-color:  #f9e0d9;
-  color:#3a3938;
+  width: 100px;
+  background-color: #f9e0d9;
+  color: #3a3938;
   font-size: 14px;
   font-weight: bold;
   padding: 5px 10px;
@@ -231,7 +264,7 @@
 
 .property-card ul li {
   /* margin: 2px 0; */
-    color: #000;
+  color: #000;
 }
 
 .property-card button {
@@ -249,24 +282,28 @@
 .property-card button:hover {
   background-color: #db5252;
 }
-.pages{
-    display: flex;
-    padding-left: 500px;
-    gap: 30px;
-    margin: 30px 0px ;
+
+.pages {
+  display: flex;
+  padding-left: 500px;
+  gap: 30px;
+  margin: 30px 0px;
 }
-.pages a{
-    text-decoration: none;
-    color: #fff;
-    background-color: #080808;
-    padding: 10px 20px;
-    border-radius: 50%;
+
+.pages a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #080808;
+  padding: 10px 20px;
+  border-radius: 50%;
 }
-.pages a:hover{
-    cursor: pointer;
-    background-color: orangered;
-    transition: 0.2s;
+
+.pages a:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transition: 0.2s;
 }
+
 footer {
   background: #111;
   color: #aaa;
@@ -278,4 +315,41 @@ footer {
 .footer a {
   color: #ccc;
   text-decoration: none;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    padding-left: 30px;
+    gap: 20px;
+  }
+
+  .social-icons {
+    padding-left: 500px;
+  }
+
+  .navbar {
+    gap: 18%;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 0px 0px;
+  }
+
+  .navlinks {
+    gap: 25px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .button {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .custom-btn {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+
 }
